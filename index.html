@@ -3,207 +3,378 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Asian Wellness Books | Chinese & Japanese Health Guides by H. Chung</title>
-  <meta name="description" content="Discover books on Traditional Chinese Medicine, Japanese longevity, herbal remedies and Eastern wellness by author H. Chung."/>
+  <title>Asian Wellness Books | Books by Chung H.</title>
+  <meta name="description" content="Discover wellness, lifestyle, and cultural books by Chung H. Explore Eastern health wisdom, mindful eating, and inspiring stories." />
 
-  <!-- Facebook / Open Graph -->
-  <meta property="og:title" content="Asian Wellness Books | H. Chung"/>
-  <meta property="og:description" content="Discover ancient Chinese & Japanese health wisdom — books on TCM, longevity, herbal remedies and Eastern wellness by author H. Chung."/>
-  <meta property="og:image" content="https://asianwellnessbooks.github.io/preview.jpg"/>
-  <meta property="og:url" content="https://asianwellnessbooks.github.io"/>
-  <meta property="og:type" content="website"/>
-  <meta property="og:site_name" content="Asian Wellness Books"/>
+  <meta property="og:title" content="Asian Wellness Books | Books by Chung H." />
+  <meta property="og:description" content="Explore books on Eastern wellness, mindful living, French-inspired eating, and meaningful storytelling by Chung H." />
+  <meta property="og:image" content="https://asianwellnessbooks.github.io/preview.jpg" />
+  <meta property="og:url" content="https://asianwellnessbooks.github.io" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Asian Wellness Books" />
 
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: Georgia, serif; background: #fafaf7; color: #2c2c2c; }
-    header { background: #2d6a4f; color: white; padding: 40px 20px; text-align: center; }
-    header h1 { font-size: 2.5em; }
-    header p { font-size: 1.1em; margin-top: 10px; opacity: 0.9; }
-    nav { background: #1b4332; text-align: center; padding: 12px; }
-    nav a { color: #d8f3dc; margin: 6px 12px; text-decoration: none; font-size: 0.95em; display: inline-block; }
-    nav a:hover { text-decoration: underline; }
-    .hero { text-align: center; padding: 60px 20px; background: #d8f3dc; }
-    .hero h2 { font-size: 2em; color: #1b4332; }
-    .hero p { font-size: 1.1em; max-width: 600px; margin: 20px auto; }
-    .hero-buttons { margin-top: 25px; }
-    .hero-buttons a { padding: 14px 28px; border-radius: 6px; text-decoration: none;
-      font-size: 1em; display: inline-block; margin: 8px; color: white; }
-    .btn-green { background: #2d6a4f; }
-    .btn-orange { background: #e76f51; }
-    .btn-amazon { background: #FF9900; color: #111 !important; font-weight: bold; }
-    .section-title { text-align: center; color: #1b4332; font-size: 1.8em; padding: 40px 20px 10px; }
-    .section-subtitle { text-align: center; color: #555; padding: 0 20px 20px; font-size: 1em; }
-    .books { display: flex; flex-wrap: wrap; justify-content: center; gap: 25px; padding: 10px 20px 50px; }
-    .book-card { background: white; border-radius: 10px; padding: 25px; width: 250px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.08); text-align: center; }
-    .book-card h3 { color: #2d6a4f; font-size: 1.05em; margin-bottom: 12px; }
-    .book-card p { font-size: 0.9em; color: #555; line-height: 1.6; }
-    .book-card a { display: inline-block; margin-top: 15px; padding: 10px 20px;
-      border-radius: 5px; text-decoration: none; color: white; font-size: 0.95em; }
-    .book-card a:hover { opacity: 0.85; }
-    .divider { height: 4px; background: linear-gradient(to right, #2d6a4f, #FF9900, #e76f51); margin: 10px 0; }
-    .tools-section { background: #fff8f5; padding: 50px 20px; }
-    .tools-section h2 { text-align: center; color: #c1440e; font-size: 1.8em; margin-bottom: 8px; }
-    .tools-section p.sub { text-align: center; color: #666; margin-bottom: 30px; }
-    .tools-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 25px; }
-    .tool-card { background: white; border-radius: 10px; padding: 25px; width: 250px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.08); text-align: center; border-top: 4px solid #e76f51; }
-    .tool-card h3 { color: #c1440e; font-size: 1.05em; margin-bottom: 12px; }
-    .tool-card p { font-size: 0.9em; color: #555; line-height: 1.6; }
-    .tool-card a { display: inline-block; margin-top: 15px; padding: 10px 20px;
-      border-radius: 5px; text-decoration: none; color: white; background: #e76f51; font-size: 0.95em; }
-    .blog-section { background: #f0f7f4; padding: 50px 20px; text-align: center; }
-    .blog-section h2 { color: #1b4332; font-size: 1.8em; margin-bottom: 10px; }
-    .blog-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 30px; }
-    .blog-card { background: white; border-radius: 8px; padding: 20px; width: 210px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.07); text-align: left; }
-    .blog-card h4 { color: #2d6a4f; margin-bottom: 10px; font-size: 0.95em; }
-    .blog-card a { color: #2d6a4f; font-size: 0.9em; font-weight: bold; text-decoration: none; }
-    .author-section { text-align: center; padding: 50px 20px; max-width: 750px; margin: 0 auto; }
-    .author-section h2 { color: #1b4332; font-size: 1.8em; margin-bottom: 20px; }
-    .author-section p { line-height: 1.9; color: #444; }
-    blockquote { border-left: 4px solid #2d6a4f; padding-left: 20px; font-style: italic;
-      color: #555; margin: 30px auto; max-width: 600px; text-align: left; }
-    .author-btns { margin-top: 20px; }
-    .author-btns a { display: inline-block; margin: 8px; padding: 12px 24px;
-      border-radius: 6px; text-decoration: none; font-weight: bold; color: white; }
-    footer { background: #1b4332; color: #d8f3dc; text-align: center; padding: 30px 20px; font-size: 0.9em; }
-    footer a { color: #d8f3dc; margin: 0 10px; text-decoration: none; }
-    footer a:hover { text-decoration: underline; }
+
+    body {
+      font-family: Georgia, serif;
+      background: #fafaf7;
+      color: #2c2c2c;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1b4332, #2d6a4f);
+      color: white;
+      text-align: center;
+      padding: 56px 20px 44px;
+    }
+
+    header h1 {
+      font-size: 2.6em;
+      margin-bottom: 12px;
+    }
+
+    header p {
+      max-width: 760px;
+      margin: 0 auto;
+      font-size: 1.08em;
+      opacity: 0.95;
+    }
+
+    nav {
+      background: #143826;
+      text-align: center;
+      padding: 14px 10px;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav a {
+      color: #d8f3dc;
+      margin: 6px 12px;
+      text-decoration: none;
+      font-size: 0.96em;
+      display: inline-block;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      background: #d8f3dc;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .hero h2 {
+      color: #1b4332;
+      font-size: 2em;
+      margin-bottom: 14px;
+    }
+
+    .hero p {
+      max-width: 700px;
+      margin: 0 auto 24px;
+      font-size: 1.08em;
+      color: #2f3e36;
+    }
+
+    .hero-buttons a {
+      display: inline-block;
+      margin: 8px;
+      padding: 13px 24px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 0.96em;
+    }
+
+    .btn-green {
+      background: #2d6a4f;
+      color: white;
+    }
+
+    .btn-amazon {
+      background: #FF9900;
+      color: #111;
+    }
+
+    .section-title {
+      text-align: center;
+      color: #1b4332;
+      font-size: 1.9em;
+      padding: 42px 20px 10px;
+    }
+
+    .section-subtitle {
+      text-align: center;
+      color: #555;
+      padding: 0 20px 24px;
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    .books {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 24px;
+      padding: 10px 20px 60px;
+      max-width: 1300px;
+      margin: 0 auto;
+    }
+
+    .book-card {
+      background: white;
+      border-radius: 12px;
+      padding: 24px;
+      width: 270px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+
+    .book-card h3 {
+      color: #1b4332;
+      font-size: 1.08em;
+      margin-bottom: 12px;
+      min-height: 54px;
+    }
+
+    .book-card p {
+      font-size: 0.92em;
+      color: #555;
+      line-height: 1.7;
+      min-height: 128px;
+    }
+
+    .book-card a {
+      display: inline-block;
+      margin-top: 16px;
+      padding: 10px 18px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 0.94em;
+    }
+
+    .divider {
+      height: 4px;
+      background: linear-gradient(to right, #2d6a4f, #FF9900, #e76f51);
+      margin: 0;
+    }
+
+    .author-section {
+      text-align: center;
+      padding: 56px 20px 64px;
+      max-width: 850px;
+      margin: 0 auto;
+    }
+
+    .author-section h2 {
+      color: #1b4332;
+      font-size: 1.85em;
+      margin-bottom: 18px;
+    }
+
+    .author-section p {
+      color: #444;
+      line-height: 1.9;
+      margin-bottom: 18px;
+    }
+
+    blockquote {
+      border-left: 4px solid #2d6a4f;
+      padding-left: 20px;
+      font-style: italic;
+      color: #555;
+      margin: 28px auto;
+      max-width: 640px;
+      text-align: left;
+      background: #f7fbf8;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      border-radius: 4px;
+    }
+
+    .author-btns a {
+      display: inline-block;
+      margin: 8px;
+      padding: 12px 22px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #1b4332;
+      color: #d8f3dc;
+      text-align: center;
+      padding: 28px 20px;
+      font-size: 0.92em;
+    }
+
+    footer a {
+      color: #d8f3dc;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 700px) {
+      header h1 { font-size: 2em; }
+      .hero h2 { font-size: 1.6em; }
+      .book-card {
+        width: 100%;
+        max-width: 340px;
+      }
+      .book-card p,
+      .book-card h3 {
+        min-height: auto;
+      }
+    }
   </style>
 </head>
 <body>
 
-<!-- HEADER -->
-<header>
-  <h1>🌿 Asian Wellness Books</h1>
-  <p>Ancient Chinese & Japanese Health Wisdom — Made Simple for Modern Life</p>
-</header>
+  <header>
+    <h1>🌿 Asian Wellness Books</h1>
+    <p>
+      Books by Chung H. on wellness, mindful living, natural balance, cultural food traditions,
+      and meaningful storytelling.
+    </p>
+  </header>
 
-<!-- NAV -->
-<nav>
-  <a href="/">Home</a>
-  <a href="#books">📚 Books</a>
-  <a href="#tools">🛠️ English Tools</a>
-  <a href="#blog">📖 Blog</a>
-  <a href="#about">About</a>
-  <a href="https://www.amazon.com/author/chung.h" target="_blank">📚 Amazon Author Page</a>
-  <a href="https://payhip.com/AsianWellnessBooks" target="_blank">🛠️ English Tools</a>
-</nav>
+  <nav>
+    <a href="#books">Books</a>
+    <a href="#about">About</a>
+    <a href="https://www.amazon.com/author/chung.h" target="_blank" rel="noopener noreferrer">Amazon Author Page</a>
+  </nav>
 
-<!-- HERO -->
-<div class="hero">
-  <h2>Discover the Secrets of Eastern Health</h2>
-  <p>Practical guides on Traditional Chinese Medicine, Japanese longevity rituals,
-    herbal remedies and Qi balance — for modern life.<br/>
-    By author <strong>H. Chung</strong>.</p>
-  <div class="hero-buttons">
-    <a href="#books" class="btn-green">📖 Browse My Books →</a>
-    <a href="https://www.amazon.com/author/chung.h" target="_blank" class="btn-amazon">☞ Amazon Author Page →</a>
-    <a href="#tools" class="btn-orange">🛠️ English Learning Tools →</a>
-  </div>
-</div>
+  <section class="hero">
+    <h2>Discover Books That Nourish Body, Mind, and Memory</h2>
+    <p>
+      From Eastern wellness and mindful eating to personal and cultural stories,
+      explore a growing collection of books designed to inspire healthier and richer living.
+    </p>
+    <div class="hero-buttons">
+      <a href="#books" class="btn-green">Browse the Books</a>
+      <a href="https://www.amazon.com/author/chung.h" target="_blank" rel="noopener noreferrer" class="btn-amazon">Visit Amazon Author Page</a>
+    </div>
+  </section>
 
-<!-- BOOKS SECTION -->
-<h2 class="section-title">📚 Wellness Books by H. Chung</h2>
-<p class="section-subtitle">Available on Amazon Kindle & Paperback worldwide</p>
-<section id="books" class="books">
+  <h2 class="section-title" id="books">📚 Books by Chung H.</h2>
+  <p class="section-subtitle">
+    A collection of wellness, food, lifestyle, and story-driven titles available through Amazon.
+  </p>
 
-  <div class="book-card">
-    <h3>🌸 The Japanese Secret to Longevity</h3>
-    <p>The science-backed plan to calm inflammation, boost energy and live well — inspired by Japanese Blue Zones.</p>
-    <a href="https://amzn.to/4t3wkTb" target="_blank" class="btn-green">Buy on Amazon →</a>
-  </div>
-
-  <div class="book-card">
-    <h3>🍳 The Japanese Breakfast Book</h3>
-    <p>Morning rituals, rice, miso and the slow start — how Japan's breakfast culture transforms your entire day.</p>
-    <a href="https://amzn.to/4ueOd2v" target="_blank" class="btn-green">Buy on Amazon →</a>
-  </div>
-
-  <div class="book-card">
-    <h3>🍜 The Japanese Soup Bible</h3>
-    <p>Miso, ramen, udon, soba and beyond — a complete guide to Japan's healing soup tradition.</p>
-    <a href="https://www.amazon.com/author/chung.h" target="_blank" class="btn-amazon">View on Amazon →</a>
-  </div>
-
-  <div class="book-card">
-    <h3>🌙 The Chinese Sleep Clock</h3>
-    <p>Align your rest with the ancient wisdom of the 24-hour organ cycle for deep, natural sleep.</p>
-    <a href="https://amzn.to/3OqHT8T" target="_blank" class="btn-green">Buy on Amazon →</a>
-  </div>
-
-  <div class="book-card">
-    <h3>🥗 Chinese Herbal Slimming Guide</h3>
-    <p>Natural herbal support for healthy weight management and balanced living — the TCM way.</p>
-    <a href="https://www.amazon.com/author/chung.h" target="_blank" class="btn-amazon">View on Amazon →</a>
-  </div>
-
-  <div class="book-card">
-    <h3>🎋 The Way of Yang Sheng</h3>
-    <p>Ancient Eastern wisdom for a longer, calmer, healthier life — rooted in Taoist nourishment practices.</p>
-    <a href="https://www.amazon.com/author/chung.h" target="_blank" class="btn-amazon">View on Amazon →</a>
-  </div>
-
-  <div class="book-card">
-    <h3>🍃 The Eastern Calm Method</h3>
-    <p>A practical guide to nervous system regulation, burnout recovery and restorative sleep using Eastern wisdom.</p>
-    <a href="https://www.amazon.com/author/chung.h" target="_blank" class="btn-amazon">View on Amazon →</a>
-  </div>
-
-  <div class="book-card">
-    <h3>🥢 The Quiet Japanese Kitchen</h3>
-    <p>Master Japanese home cooking starting with the pantry — simple, nourishing, seasonal recipes.</p>
-    <a href="https://www.amazon.com/author/chung.h" target="_blank" class="btn-amazon">View on Amazon →</a>
-  </div>
-
-</section>
-
-<div class="divider"></div>
-
-<!-- ENGLISH TOOLS SECTION -->
-<div class="tools-section" id="tools">
-  <h2>🛠️ English Learning Tools</h2>
-  <p class="sub">AI-powered prompts, templates and coaching tools — available on Payhip</p>
-  <div class="tools-grid">
-
-    <div class="tool-card">
-      <h3>✍️ Essay Writing Generator</h3>
-      <p>AI-powered prompts to write structured, high-scoring essays for TOEIC, IELTS and academic purposes.</p>
-      <a href="https://payhip.com/AsianWellnessBooks" target="_blank">Get on Payhip →</a>
+  <section class="books">
+    <div class="book-card">
+      <h3>🌸 The Japanese Secret to Longevity</h3>
+      <p>The science-backed plan to calm inflammation, boost energy, and live well, inspired by Japanese Blue Zone wisdom.</p>
+      <a href="https://amzn.to/4t3wkTb" target="_blank" rel="noopener noreferrer" class="btn-green">Buy on Amazon</a>
     </div>
 
-    <div class="tool-card">
-      <h3>🎯 TOEIC Preparation Kit</h3>
-      <p>Complete practice tools, vocabulary builders and listening strategies for TOEIC success.</p>
-      <a href="https://payhip.com/AsianWellnessBooks" target="_blank">Get on Payhip →</a>
+    <div class="book-card">
+      <h3>🍳 The Japanese Breakfast Book</h3>
+      <p>Discover morning rituals, comforting recipes, and the nourishing Japanese breakfast traditions that shape the day.</p>
+      <a href="https://amzn.to/4ueOd2v" target="_blank" rel="noopener noreferrer" class="btn-green">Buy on Amazon</a>
     </div>
 
-    <div class="tool-card">
-      <h3>🤖 Claude AI Prompt Pack</h3>
-      <p>Professional prompts for content creation, coaching, writing and business — ready to use instantly.</p>
-      <a href="https://payhip.com/AsianWellnessBooks" target="_blank">Get on Payhip →</a>
+    <div class="book-card">
+      <h3>🍜 The Japanese Soup Bible</h3>
+      <p>A warm and practical guide to miso, ramen, udon, soba, and Japan’s healing soup culture.</p>
+      <a href="https://www.amazon.com/author/chung.h" target="_blank" rel="noopener noreferrer" class="btn-amazon">View on Amazon</a>
     </div>
 
-    <div class="tool-card">
-      <h3>📘 English Coaching App</h3>
-      <p>Interactive HTML coaching tool for English learners — grammar, vocabulary and fluency exercises.</p>
-      <a href="https://payhip.com/AsianWellnessBooks" target="_blank">Get on Payhip →</a>
+    <div class="book-card">
+      <h3>🌙 The Chinese Sleep Clock</h3>
+      <p>Learn how to align your sleep and recovery with the ancient 24-hour organ clock from Chinese tradition.</p>
+      <a href="https://amzn.to/3OqHT8T" target="_blank" rel="noopener noreferrer" class="btn-green">Buy on Amazon</a>
     </div>
 
-  </div>
-</div>
-
-<div class="divider"></div>
-
-<!-- BLOG -->
-<div class="blog-section" id="blog">
-  <h2>📖 Free Health Tips & Articles</h2>
-  <p>Practical Eastern wellness wisdom — free to read, free to share.</p>
-  <div class="blog-links">
-    <div class="blog-card">
-      <h4>🌸 Japanese Longevity Secrets</h4>
-      <a href="/blog/japanese-secret-longevity.html">Read Article →</a>
+    <div class="book-card">
+      <h3>🥗 Chinese Herbal Slimming Guide</h3>
+      <p>A simple introduction to natural support for healthy weight balance through a Traditional Chinese Medicine lens.</p>
+      <a href="https://www.amazon.com/author/chung.h" target="_blank" rel="noopener noreferrer" class="btn-amazon">View on Amazon</a>
     </div>
-    <div class="blog-
+
+    <div class="book-card">
+      <h3>🎋 The Way of Yang Sheng</h3>
+      <p>Explore ancient Taoist nourishment principles for calm, vitality, and a longer, healthier life.</p>
+      <a href="https://www.amazon.com/author/chung.h" target="_blank" rel="noopener noreferrer" class="btn-amazon">View on Amazon</a>
+    </div>
+
+    <div class="book-card">
+      <h3>🍃 The Eastern Calm Method</h3>
+      <p>A practical guide to restoring calm, recovering from burnout, and improving sleep using Eastern-inspired wellness habits.</p>
+      <a href="https://www.amazon.com/author/chung.h" target="_blank" rel="noopener noreferrer" class="btn-amazon">View on Amazon</a>
+    </div>
+
+    <div class="book-card">
+      <h3>🥢 The Quiet Japanese Kitchen</h3>
+      <p>Learn the pantry, mindset, and simple home-cooking habits behind a more nourishing Japanese kitchen.</p>
+      <a href="https://www.amazon.com/author/chung.h" target="_blank" rel="noopener noreferrer" class="btn-amazon">View on Amazon</a>
+    </div>
+
+    <div class="book-card">
+      <h3>🥖 How to Eat Like a French?</h3>
+      <p>A guide to savoring life one meal at a time through French cooking, balance, pleasure, and mindful eating.</p>
+      <a href="https://www.amazon.com/author/chung.h" target="_blank" rel="noopener noreferrer" class="btn-amazon">View on Amazon</a>
+    </div>
+
+    <div class="book-card">
+      <h3>🧘 The Eastern Nervous System Reset</h3>
+      <p>Support your body and mind with practical Eastern-inspired tools for stress regulation, rest, and resilience.</p>
+      <a href="https://www.amazon.com/author/chung.h" target="_blank" rel="noopener noreferrer" class="btn-amazon">View on Amazon</a>
+    </div>
+
+    <div class="book-card">
+      <h3>🍃 Le Diabète Autrement</h3>
+      <p>A French-language guide offering a more balanced and natural perspective on daily wellness and supportive habits.</p>
+      <a href="https://www.amazon.com/author/chung.h" target="_blank" rel="noopener noreferrer" class="btn-amazon">View on Amazon</a>
+    </div>
+
+    <div class="book-card">
+      <h3>📘 The Roots of Pride</h3>
+      <p>A moving literary work inspired by a true story of Algeria, memory, exile, dignity, and family heritage.</p>
+      <a href="https://www.amazon.com/author/chung.h" target="_blank" rel="noopener noreferrer" class="btn-amazon">View on Amazon</a>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="author-section" id="about">
+    <h2>About the Author</h2>
+    <p>
+      Chung H. writes books that connect wellness, cultural wisdom, daily balance,
+      and meaningful living in ways that are practical and inspiring for modern readers.
+    </p>
+    <p>
+      His work explores Eastern health traditions, food culture, mindful habits,
+      and story-driven themes that invite readers to slow down, reflect, and live better.
+    </p>
+
+    <blockquote>
+      “Ancient wisdom becomes powerful when it helps us live better today.”
+    </blockquote>
+
+    <div class="author-btns">
+      <a href="https://www.amazon.com/author/chung.h" target="_blank" rel="noopener noreferrer" class="btn-amazon">Amazon Author Page</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Asian Wellness Books · Built with GitHub Pages</p>
+    <p>
+      <a href="https://www.amazon.com/author/chung.h" target="_blank" rel="noopener noreferrer">Amazon Author Page</a>
+    </p>
+  </footer>
+
+</body>
+</html>
